@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+@media (min-width: 767px) {
+  button {
+    color: #d4d2db;
+    background-color: #382f5a;
+    border-radius: 5px;
+    border-color: #d4d2db;
+    width: 20vw;
+    font-size: 20px;
+    padding: 10px;
+    margin: 1%;
+  }
+}
+@media (min-width: 768px), (max-width: 991px) {
+  button {
+    color: #d4d2db;
+    background-color: #382f5a;
+    border-radius: 5px;
+    border-color: #d4d2db;
+    min-width: 130px;
+    max-width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+  }
+}
+@media (min-width: 992px) {
+  button {
+    color: #d4d2db;
+    background-color: #382f5a;
+    border-radius: 5px;
+    border-color: #d4d2db;
+    width: 18vw;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+  }
+}

@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.mainContent {
+  background-color: #150b3e;
+  border-radius: 30px;
+  border-color: none;
+  outline: none;
+}
+.userIdentity {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.userIdentity p {
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  outline: none;
+  font-size: 15px;
+  border-radius: 60px;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 30px;
+}
+.userIdentity h1 {
+  color: #d4d2db;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.denominationList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.urBalance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #585076;
+  font-size: 20px;
+}
+.urBalance p {
+  margin-left: 20px;
+}
+.urBalance h1 {
+  margin-right: 20px;
+  color: #d4d2db;
+  font-size: 30px;
+}
+.currentBalance {
+  margin-right: 20px;
+  font-size: 12px;
+  color: #585076;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.withDraw h1 {
+  font-size: 25px;
+  color: #d4d2db;
+  margin-left: 20px;
+}
+.withDraw p {
+  color: #585076;
+  font-size: 20px;
+  margin-left: 20px;
+}
+@media (max-width: 767px) {
+  .mainContent {
+    background-color: #150b3e;
+    border-radius: 30px;
+    border-color: none;
+    outline: none;
+    padding: 25px;
+    width: 90vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .mainContent {
+    background-color: #150b3e;
+    border-radius: 30px;
+    border-color: none;
+    outline: none;
+    padding: 25px;
+    width: 50vw;
+  }
+}
